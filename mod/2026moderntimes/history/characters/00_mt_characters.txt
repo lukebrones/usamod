@@ -1,0 +1,1029 @@
+﻿brones_luke = {
+	name = "Luke"
+	dynasty = dynasty_brones
+	culture = anglo_saxon
+	faith = catholic
+	father = brones_joshua
+	mother = gorman_erin
+
+	2009.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_az_phoenix
+		add_trait = sadistic
+		add_trait = beauty_good_3
+		add_trait = brave
+		add_trait = lazy
+		add_trait = gregarious
+		add_trait = deceitful
+		add_trait = fecund
+		add_trait = vengeful
+		add_trait = loyal
+		add_trait = lustful
+		add_trait = temperate
+		add_trait = stubborn
+		add_trait = intellect_good_2
+		add_trait = ambitious
+	}
+}
+
+brones_joshua = {
+	name = "Joshua"
+	dynasty = dynasty_brones
+	culture = anglo_saxon
+	faith = catholic
+
+	1976.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ca_wilton
+		add_spouse = gorman_erin
+		add_trait = intellect_good_3
+		add_trait = stubborn
+		add_trait = callous
+		add_trait = zealous
+		add_trait = honest
+		add_trait = gregarious
+		add_trait = diligent
+		add_trait = ambitious
+		add_trait = wrathful
+		add_trait = brave
+	}
+}
+
+brones_jacob = {
+	name = "Jacob"
+	dynasty = dynasty_brones
+	culture = anglo_saxon
+	faith = catholic
+	father = brones_joshua
+	mother = gorman_erin
+
+	2007.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = brones_luke
+		add_spouse = sianez_emma
+		add_trait = generous
+		add_trait = shy
+		add_trait = craven
+		add_trait = stubborn
+		add_trait = forgiving
+	}
+}
+
+gorman_erin = {
+	name = "Erin"
+	dynasty = dynasty_gorman
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+
+	1986.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = brones_luke
+		add_trait = craven
+		add_trait = content
+		add_trait = generous
+		add_trait = shy
+		add_trait = arbitrary
+		add_trait = stubborn
+	}
+}
+
+rust_joe = {
+	name = "Joe"
+	dynasty = dynasty_rust
+	culture = anglo_saxon
+	faith = catholic
+	father = rust_martin
+	mother = rust_jacquie
+
+	2009.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ca_elk_grove
+		add_trait = chaste
+		add_trait = beauty_good_3
+		add_trait = loyal
+		add_trait = forgiving
+		add_trait = intellect_good_3
+		add_trait = compassionate
+		add_trait = trusting
+		add_trait = patient
+		add_trait = just
+		add_trait = humble
+		add_trait = honest
+		add_trait = shy
+		add_trait = content
+		add_trait = calm
+	}
+}
+
+rust_martin = {
+	name = "Martin"
+	dynasty = dynasty_rust
+	culture = anglo_saxon
+	faith = catholic
+
+	1953.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = rust_joe
+		add_spouse = rust_jacquie
+		add_trait = zealous
+		add_trait = paranoid
+		add_trait = arbitrary
+		add_trait = stubborn
+		add_trait = cynical
+	}
+}
+
+rust_jacquie = {
+	name = "Jacquie"
+	dynasty = dynasty_rust
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+
+	1976.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = rust_joe
+		add_trait = brave
+		add_trait = gregarious
+		add_trait = loyal
+		add_trait = generous
+	}
+}
+
+rust_jamilyn = {
+	name = "Jamilyn"
+	dynasty = dynasty_rust
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+	father = rust_martin
+	mother = rust_jacquie
+
+	2007.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = rust_joe
+	}
+}
+
+mcauliffe_ireland = {
+	name = "Ireland"
+	dynasty = dynasty_mcauliffe
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+
+	2009.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ca_midtown_sacramento
+		add_trait = beauty_good_3
+		add_trait = gregarious
+		add_trait = ambitious
+	}
+}
+
+hamilton_justin = {
+	name = "Justin"
+	dynasty = dynasty_hamilton
+	culture = anglo_saxon
+	faith = catholic
+	father = hamilton_jason
+
+	2009.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ok_owasso
+		add_trait = lustful
+		add_trait = gregarious
+		add_trait = greedy
+		add_trait = arrogant
+		add_trait = impatient
+		add_trait = giant
+		add_trait = albino
+	}
+}
+
+hamilton_jason = {
+	name = "Jason"
+	dynasty = dynasty_hamilton
+	culture = anglo_saxon
+	faith = catholic
+
+	1976.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = hamilton_justin
+		add_trait = gregarious
+		add_trait = giant
+	}
+}
+
+sianez_emma = {
+	name = "Emma"
+	dynasty = dynasty_sianez
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+
+	2007.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ca_laguna_beach
+		add_trait = beauty_good_3
+		add_trait = gregarious
+		add_trait = gluttonous
+	}
+}
+
+sianez_isabella = {
+	name = "Isabella"
+	dynasty = dynasty_sianez
+	culture = anglo_saxon
+	faith = catholic
+	gender = female
+
+	2010.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		employer = sianez_emma
+		add_trait = beauty_good_3
+		add_trait = gregarious
+	}
+}
+
+trump_donald = {
+	name = "Donald"
+	dynasty = dynasty_trump
+	culture = anglo_saxon
+	faith = catholic
+
+	1946.6.14 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = e_america
+		give_title = k_usa
+		give_title = c_va_washington_dc
+		add_trait = ambitious
+		add_trait = arrogant
+		add_trait = gregarious
+	}
+}
+
+gov_alabama = {
+	name = "Governor"
+	dynasty = dynasty_alabama_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_al_montgomery
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_alaska = {
+	name = "Governor"
+	dynasty = dynasty_alaska_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ak_juneau
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_arizona = {
+	name = "Governor"
+	dynasty = dynasty_arizona_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_az_tucson
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_arkansas = {
+	name = "Governor"
+	dynasty = dynasty_arkansas_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ar_little_rock
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_california = {
+	name = "Governor"
+	dynasty = dynasty_california_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ca_sacramento
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_colorado = {
+	name = "Governor"
+	dynasty = dynasty_colorado_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_co_denver
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_connecticut = {
+	name = "Governor"
+	dynasty = dynasty_connecticut_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ct_hartford
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_delaware = {
+	name = "Governor"
+	dynasty = dynasty_delaware_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_de_dover
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_florida = {
+	name = "Governor"
+	dynasty = dynasty_florida_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_fl_tallahassee
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_georgia = {
+	name = "Governor"
+	dynasty = dynasty_georgia_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ga_atlanta
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_hawaii = {
+	name = "Governor"
+	dynasty = dynasty_hawaii_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_hi_honolulu
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_idaho = {
+	name = "Governor"
+	dynasty = dynasty_idaho_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_id_boise
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_illinois = {
+	name = "Governor"
+	dynasty = dynasty_illinois_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_il_springfield
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_indiana = {
+	name = "Governor"
+	dynasty = dynasty_indiana_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_in_indianapolis
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_iowa = {
+	name = "Governor"
+	dynasty = dynasty_iowa_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ia_des_moines
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_kansas = {
+	name = "Governor"
+	dynasty = dynasty_kansas_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ks_topeka
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_kentucky = {
+	name = "Governor"
+	dynasty = dynasty_kentucky_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ky_frankfort
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_louisiana = {
+	name = "Governor"
+	dynasty = dynasty_louisiana_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_la_baton_rouge
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_maine = {
+	name = "Governor"
+	dynasty = dynasty_maine_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_me_augusta
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_maryland = {
+	name = "Governor"
+	dynasty = dynasty_maryland_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_md_annapolis
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_massachusetts = {
+	name = "Governor"
+	dynasty = dynasty_massachusetts_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ma_boston
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_michigan = {
+	name = "Governor"
+	dynasty = dynasty_michigan_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_mi_lansing
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_minnesota = {
+	name = "Governor"
+	dynasty = dynasty_minnesota_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_mn_saint_paul
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_mississippi = {
+	name = "Governor"
+	dynasty = dynasty_mississippi_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ms_jackson
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_missouri = {
+	name = "Governor"
+	dynasty = dynasty_missouri_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_mo_jefferson_city
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_montana = {
+	name = "Governor"
+	dynasty = dynasty_montana_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_mt_helena
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_nebraska = {
+	name = "Governor"
+	dynasty = dynasty_nebraska_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ne_lincoln
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_nevada = {
+	name = "Governor"
+	dynasty = dynasty_nevada_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nv_carson_city
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_new_hampshire = {
+	name = "Governor"
+	dynasty = dynasty_new_hampshire_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nh_concord
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_new_jersey = {
+	name = "Governor"
+	dynasty = dynasty_new_jersey_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nj_trenton
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_new_mexico = {
+	name = "Governor"
+	dynasty = dynasty_new_mexico_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nm_santa_fe
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_new_york = {
+	name = "Governor"
+	dynasty = dynasty_new_york_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ny_albany
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_north_carolina = {
+	name = "Governor"
+	dynasty = dynasty_north_carolina_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nc_raleigh
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_north_dakota = {
+	name = "Governor"
+	dynasty = dynasty_north_dakota_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_nd_bismarck
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_ohio = {
+	name = "Governor"
+	dynasty = dynasty_ohio_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_oh_columbus
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_oklahoma = {
+	name = "Governor"
+	dynasty = dynasty_oklahoma_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ok_oklahoma_city
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_oregon = {
+	name = "Governor"
+	dynasty = dynasty_oregon_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_or_salem
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_pennsylvania = {
+	name = "Governor"
+	dynasty = dynasty_pennsylvania_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_pa_harrisburg
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_rhode_island = {
+	name = "Governor"
+	dynasty = dynasty_rhode_island_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ri_providence
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_south_carolina = {
+	name = "Governor"
+	dynasty = dynasty_south_carolina_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_sc_columbia
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_south_dakota = {
+	name = "Governor"
+	dynasty = dynasty_south_dakota_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_sd_pierre
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_tennessee = {
+	name = "Governor"
+	dynasty = dynasty_tennessee_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_tn_nashville
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_texas = {
+	name = "Governor"
+	dynasty = dynasty_texas_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_tx_austin
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_utah = {
+	name = "Governor"
+	dynasty = dynasty_utah_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_ut_salt_lake_city
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_vermont = {
+	name = "Governor"
+	dynasty = dynasty_vermont_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_vt_montpelier
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_virginia = {
+	name = "Governor"
+	dynasty = dynasty_virginia_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_va_richmond
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_washington = {
+	name = "Governor"
+	dynasty = dynasty_washington_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_wa_olympia
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_west_virginia = {
+	name = "Governor"
+	dynasty = dynasty_west_virginia_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_wv_charleston
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_wisconsin = {
+	name = "Governor"
+	dynasty = dynasty_wisconsin_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_wi_madison
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}
+
+gov_wyoming = {
+	name = "Governor"
+	dynasty = dynasty_wyoming_gov
+	culture = anglo_saxon
+	faith = catholic
+
+	1970.1.1 = { birth = yes }
+
+	2026.1.1 = {
+		give_title = c_wy_cheyenne
+		add_trait = diligent
+		add_trait = gregarious
+	}
+}

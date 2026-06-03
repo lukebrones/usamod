@@ -1,0 +1,709 @@
+﻿e_america = {
+	color = { 20 60 120 }
+	capital = c_az_phoenix
+
+	k_usa = {
+		color = { 30 80 160 }
+		capital = c_az_phoenix
+
+		d_alabama = {
+			color = { 40 80 120 }
+			capital = c_al_montgomery
+
+			c_al_montgomery = {
+				color = { 60 100 140 }
+				b_us_al_montgomery = {
+					province = 100000
+				}
+			}
+
+		}
+
+		d_alaska = {
+			color = { 41 82 123 }
+			capital = c_ak_juneau
+
+			c_ak_juneau = {
+				color = { 61 102 143 }
+				b_us_ak_juneau = {
+					province = 100001
+				}
+			}
+
+		}
+
+		d_arizona = {
+			color = { 42 84 126 }
+			capital = c_az_phoenix
+
+			c_az_phoenix = {
+				color = { 62 104 146 }
+				b_us_az_phoenix = {
+					province = 100002
+				}
+			}
+
+			c_az_tucson = {
+				color = { 63 106 149 }
+				b_us_az_tucson = {
+					province = 100003
+				}
+			}
+
+		}
+
+		d_arkansas = {
+			color = { 44 88 132 }
+			capital = c_ar_little_rock
+
+			c_ar_little_rock = {
+				color = { 64 108 152 }
+				b_us_ar_little_rock = {
+					province = 100004
+				}
+			}
+
+		}
+
+		d_california = {
+			color = { 45 90 135 }
+			capital = c_ca_sacramento
+
+			c_ca_sacramento = {
+				color = { 65 110 155 }
+				b_us_ca_sacramento = {
+					province = 100005
+				}
+			}
+
+			c_ca_elk_grove = {
+				color = { 66 112 158 }
+				b_us_ca_elk_grove = {
+					province = 100006
+				}
+			}
+
+			c_ca_wilton = {
+				color = { 67 114 161 }
+				b_us_ca_wilton = {
+					province = 100007
+				}
+			}
+
+			c_ca_midtown_sacramento = {
+				color = { 68 116 164 }
+				b_us_ca_midtown_sacramento = {
+					province = 100008
+				}
+			}
+
+			c_ca_laguna_beach = {
+				color = { 69 118 167 }
+				b_us_ca_laguna_beach = {
+					province = 100009
+				}
+			}
+
+		}
+
+		d_colorado = {
+			color = { 50 100 150 }
+			capital = c_co_denver
+
+			c_co_denver = {
+				color = { 70 120 170 }
+				b_us_co_denver = {
+					province = 100010
+				}
+			}
+
+		}
+
+		d_connecticut = {
+			color = { 51 102 153 }
+			capital = c_ct_hartford
+
+			c_ct_hartford = {
+				color = { 71 122 173 }
+				b_us_ct_hartford = {
+					province = 100011
+				}
+			}
+
+		}
+
+		d_delaware = {
+			color = { 52 104 156 }
+			capital = c_de_dover
+
+			c_de_dover = {
+				color = { 72 124 176 }
+				b_us_de_dover = {
+					province = 100012
+				}
+			}
+
+		}
+
+		d_florida = {
+			color = { 53 106 159 }
+			capital = c_fl_tallahassee
+
+			c_fl_tallahassee = {
+				color = { 73 126 179 }
+				b_us_fl_tallahassee = {
+					province = 100013
+				}
+			}
+
+		}
+
+		d_georgia = {
+			color = { 54 108 162 }
+			capital = c_ga_atlanta
+
+			c_ga_atlanta = {
+				color = { 74 128 182 }
+				b_us_ga_atlanta = {
+					province = 100014
+				}
+			}
+
+		}
+
+		d_hawaii = {
+			color = { 55 110 165 }
+			capital = c_hi_honolulu
+
+			c_hi_honolulu = {
+				color = { 75 130 185 }
+				b_us_hi_honolulu = {
+					province = 100015
+				}
+			}
+
+		}
+
+		d_idaho = {
+			color = { 56 112 168 }
+			capital = c_id_boise
+
+			c_id_boise = {
+				color = { 76 132 188 }
+				b_us_id_boise = {
+					province = 100016
+				}
+			}
+
+		}
+
+		d_illinois = {
+			color = { 57 114 171 }
+			capital = c_il_springfield
+
+			c_il_springfield = {
+				color = { 77 134 191 }
+				b_us_il_springfield = {
+					province = 100017
+				}
+			}
+
+		}
+
+		d_indiana = {
+			color = { 58 116 174 }
+			capital = c_in_indianapolis
+
+			c_in_indianapolis = {
+				color = { 78 136 194 }
+				b_us_in_indianapolis = {
+					province = 100018
+				}
+			}
+
+		}
+
+		d_iowa = {
+			color = { 59 118 177 }
+			capital = c_ia_des_moines
+
+			c_ia_des_moines = {
+				color = { 79 138 197 }
+				b_us_ia_des_moines = {
+					province = 100019
+				}
+			}
+
+		}
+
+		d_kansas = {
+			color = { 60 120 180 }
+			capital = c_ks_topeka
+
+			c_ks_topeka = {
+				color = { 80 140 200 }
+				b_us_ks_topeka = {
+					province = 100020
+				}
+			}
+
+		}
+
+		d_kentucky = {
+			color = { 61 122 183 }
+			capital = c_ky_frankfort
+
+			c_ky_frankfort = {
+				color = { 81 142 203 }
+				b_us_ky_frankfort = {
+					province = 100021
+				}
+			}
+
+		}
+
+		d_louisiana = {
+			color = { 62 124 186 }
+			capital = c_la_baton_rouge
+
+			c_la_baton_rouge = {
+				color = { 82 144 206 }
+				b_us_la_baton_rouge = {
+					province = 100022
+				}
+			}
+
+		}
+
+		d_maine = {
+			color = { 63 126 189 }
+			capital = c_me_augusta
+
+			c_me_augusta = {
+				color = { 83 146 209 }
+				b_us_me_augusta = {
+					province = 100023
+				}
+			}
+
+		}
+
+		d_maryland = {
+			color = { 64 128 192 }
+			capital = c_md_annapolis
+
+			c_md_annapolis = {
+				color = { 84 148 212 }
+				b_us_md_annapolis = {
+					province = 100024
+				}
+			}
+
+		}
+
+		d_massachusetts = {
+			color = { 65 130 195 }
+			capital = c_ma_boston
+
+			c_ma_boston = {
+				color = { 85 150 215 }
+				b_us_ma_boston = {
+					province = 100025
+				}
+			}
+
+		}
+
+		d_michigan = {
+			color = { 66 132 198 }
+			capital = c_mi_lansing
+
+			c_mi_lansing = {
+				color = { 86 152 218 }
+				b_us_mi_lansing = {
+					province = 100026
+				}
+			}
+
+		}
+
+		d_minnesota = {
+			color = { 67 134 201 }
+			capital = c_mn_saint_paul
+
+			c_mn_saint_paul = {
+				color = { 87 154 221 }
+				b_us_mn_saint_paul = {
+					province = 100027
+				}
+			}
+
+		}
+
+		d_mississippi = {
+			color = { 68 136 204 }
+			capital = c_ms_jackson
+
+			c_ms_jackson = {
+				color = { 88 156 224 }
+				b_us_ms_jackson = {
+					province = 100028
+				}
+			}
+
+		}
+
+		d_missouri = {
+			color = { 69 138 207 }
+			capital = c_mo_jefferson_city
+
+			c_mo_jefferson_city = {
+				color = { 89 158 227 }
+				b_us_mo_jefferson_city = {
+					province = 100029
+				}
+			}
+
+		}
+
+		d_montana = {
+			color = { 70 140 210 }
+			capital = c_mt_helena
+
+			c_mt_helena = {
+				color = { 90 160 230 }
+				b_us_mt_helena = {
+					province = 100030
+				}
+			}
+
+		}
+
+		d_nebraska = {
+			color = { 71 142 213 }
+			capital = c_ne_lincoln
+
+			c_ne_lincoln = {
+				color = { 91 162 233 }
+				b_us_ne_lincoln = {
+					province = 100031
+				}
+			}
+
+		}
+
+		d_nevada = {
+			color = { 72 144 216 }
+			capital = c_nv_carson_city
+
+			c_nv_carson_city = {
+				color = { 92 164 236 }
+				b_us_nv_carson_city = {
+					province = 100032
+				}
+			}
+
+		}
+
+		d_new_hampshire = {
+			color = { 73 146 219 }
+			capital = c_nh_concord
+
+			c_nh_concord = {
+				color = { 93 166 239 }
+				b_us_nh_concord = {
+					province = 100033
+				}
+			}
+
+		}
+
+		d_new_jersey = {
+			color = { 74 148 222 }
+			capital = c_nj_trenton
+
+			c_nj_trenton = {
+				color = { 94 168 242 }
+				b_us_nj_trenton = {
+					province = 100034
+				}
+			}
+
+		}
+
+		d_new_mexico = {
+			color = { 75 150 225 }
+			capital = c_nm_santa_fe
+
+			c_nm_santa_fe = {
+				color = { 95 170 245 }
+				b_us_nm_santa_fe = {
+					province = 100035
+				}
+			}
+
+		}
+
+		d_new_york = {
+			color = { 76 152 228 }
+			capital = c_ny_albany
+
+			c_ny_albany = {
+				color = { 96 172 248 }
+				b_us_ny_albany = {
+					province = 100036
+				}
+			}
+
+		}
+
+		d_north_carolina = {
+			color = { 77 154 231 }
+			capital = c_nc_raleigh
+
+			c_nc_raleigh = {
+				color = { 97 174 251 }
+				b_us_nc_raleigh = {
+					province = 100037
+				}
+			}
+
+		}
+
+		d_north_dakota = {
+			color = { 78 156 234 }
+			capital = c_nd_bismarck
+
+			c_nd_bismarck = {
+				color = { 98 176 254 }
+				b_us_nd_bismarck = {
+					province = 100038
+				}
+			}
+
+		}
+
+		d_ohio = {
+			color = { 79 158 237 }
+			capital = c_oh_columbus
+
+			c_oh_columbus = {
+				color = { 99 178 2 }
+				b_us_oh_columbus = {
+					province = 100039
+				}
+			}
+
+		}
+
+		d_oklahoma = {
+			color = { 80 160 240 }
+			capital = c_ok_oklahoma_city
+
+			c_ok_oklahoma_city = {
+				color = { 100 180 5 }
+				b_us_ok_oklahoma_city = {
+					province = 100040
+				}
+			}
+
+			c_ok_owasso = {
+				color = { 101 182 8 }
+				b_us_ok_owasso = {
+					province = 100041
+				}
+			}
+
+		}
+
+		d_oregon = {
+			color = { 82 164 246 }
+			capital = c_or_salem
+
+			c_or_salem = {
+				color = { 102 184 11 }
+				b_us_or_salem = {
+					province = 100042
+				}
+			}
+
+		}
+
+		d_pennsylvania = {
+			color = { 83 166 249 }
+			capital = c_pa_harrisburg
+
+			c_pa_harrisburg = {
+				color = { 103 186 14 }
+				b_us_pa_harrisburg = {
+					province = 100043
+				}
+			}
+
+		}
+
+		d_rhode_island = {
+			color = { 84 168 252 }
+			capital = c_ri_providence
+
+			c_ri_providence = {
+				color = { 104 188 17 }
+				b_us_ri_providence = {
+					province = 100044
+				}
+			}
+
+		}
+
+		d_south_carolina = {
+			color = { 85 170 0 }
+			capital = c_sc_columbia
+
+			c_sc_columbia = {
+				color = { 105 190 20 }
+				b_us_sc_columbia = {
+					province = 100045
+				}
+			}
+
+		}
+
+		d_south_dakota = {
+			color = { 86 172 3 }
+			capital = c_sd_pierre
+
+			c_sd_pierre = {
+				color = { 106 192 23 }
+				b_us_sd_pierre = {
+					province = 100046
+				}
+			}
+
+		}
+
+		d_tennessee = {
+			color = { 87 174 6 }
+			capital = c_tn_nashville
+
+			c_tn_nashville = {
+				color = { 107 194 26 }
+				b_us_tn_nashville = {
+					province = 100047
+				}
+			}
+
+		}
+
+		d_texas = {
+			color = { 88 176 9 }
+			capital = c_tx_austin
+
+			c_tx_austin = {
+				color = { 108 196 29 }
+				b_us_tx_austin = {
+					province = 100048
+				}
+			}
+
+		}
+
+		d_utah = {
+			color = { 89 178 12 }
+			capital = c_ut_salt_lake_city
+
+			c_ut_salt_lake_city = {
+				color = { 109 198 32 }
+				b_us_ut_salt_lake_city = {
+					province = 100049
+				}
+			}
+
+		}
+
+		d_vermont = {
+			color = { 90 180 15 }
+			capital = c_vt_montpelier
+
+			c_vt_montpelier = {
+				color = { 110 200 35 }
+				b_us_vt_montpelier = {
+					province = 100050
+				}
+			}
+
+		}
+
+		d_virginia = {
+			color = { 91 182 18 }
+			capital = c_va_richmond
+
+			c_va_richmond = {
+				color = { 111 202 38 }
+				b_us_va_richmond = {
+					province = 100051
+				}
+			}
+
+			c_va_washington_dc = {
+				color = { 112 204 41 }
+				b_us_va_washington_dc = {
+					province = 100052
+				}
+			}
+
+		}
+
+		d_washington = {
+			color = { 93 186 24 }
+			capital = c_wa_olympia
+
+			c_wa_olympia = {
+				color = { 113 206 44 }
+				b_us_wa_olympia = {
+					province = 100053
+				}
+			}
+
+		}
+
+		d_west_virginia = {
+			color = { 94 188 27 }
+			capital = c_wv_charleston
+
+			c_wv_charleston = {
+				color = { 114 208 47 }
+				b_us_wv_charleston = {
+					province = 100054
+				}
+			}
+
+		}
+
+		d_wisconsin = {
+			color = { 95 190 30 }
+			capital = c_wi_madison
+
+			c_wi_madison = {
+				color = { 115 210 50 }
+				b_us_wi_madison = {
+					province = 100055
+				}
+			}
+
+		}
+
+		d_wyoming = {
+			color = { 96 192 33 }
+			capital = c_wy_cheyenne
+
+			c_wy_cheyenne = {
+				color = { 116 212 53 }
+				b_us_wy_cheyenne = {
+					province = 100056
+				}
+			}
+
+		}
+
+	}
+}

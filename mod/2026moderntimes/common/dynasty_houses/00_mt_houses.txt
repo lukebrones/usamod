@@ -1,0 +1,7 @@
+﻿house_brones = { name = "House Brones" dynasty = dynasty_brones }
+house_rust = { name = "House Rust" dynasty = dynasty_rust }
+house_mcauliffe = { name = "House McAuliffe" dynasty = dynasty_mcauliffe }
+house_hamilton = { name = "House Hamilton" dynasty = dynasty_hamilton }
+house_sianez = { name = "House Sianez" dynasty = dynasty_sianez }
+house_gorman = { name = "House Gorman" dynasty = dynasty_gorman }
+house_trump = { name = "House Trump" dynasty = dynasty_trump }
