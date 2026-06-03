@@ -1,0 +1,42 @@
+﻿dynasty_brones = {
+	pattern = "solid"
+	color1 = { 0 80 180 }
+	color2 = { 255 255 255 }
+}
+
+dynasty_rust = {
+	pattern = "solid"
+	color1 = { 120 60 20 }
+	color2 = { 220 220 220 }
+}
+
+dynasty_mcauliffe = {
+	pattern = "solid"
+	color1 = { 20 130 70 }
+	color2 = { 255 215 0 }
+}
+
+dynasty_hamilton = {
+	pattern = "solid"
+	color1 = { 80 20 140 }
+	color2 = { 240 240 240 }
+}
+
+dynasty_sianez = {
+	pattern = "solid"
+	color1 = { 230 90 160 }
+	color2 = { 255 240 245 }
+}
+
+dynasty_gorman = {
+	pattern = "solid"
+	color1 = { 30 30 30 }
+	color2 = { 120 200 120 }
+}
+
+dynasty_trump = {
+	pattern = "solid"
+	color1 = { 200 20 20 }
+	color2 = { 240 200 0 }
+}
+

@@ -1,0 +1,284 @@
+﻿dynasty_brones = {
+	name = "Brones"
+	culture = anglo_saxon
+}
+
+dynasty_rust = {
+	name = "Rust"
+	culture = anglo_saxon
+}
+
+dynasty_mcauliffe = {
+	name = "McAuliffe"
+	culture = anglo_saxon
+}
+
+dynasty_hamilton = {
+	name = "Hamilton"
+	culture = anglo_saxon
+}
+
+dynasty_sianez = {
+	name = "Sianez"
+	culture = anglo_saxon
+}
+
+dynasty_gorman = {
+	name = "Gorman"
+	culture = anglo_saxon
+}
+
+dynasty_trump = {
+	name = "Trump"
+	culture = anglo_saxon
+}
+
+dynasty_alabama_gov = {
+	name = "Alabama Government"
+	culture = anglo_saxon
+}
+
+dynasty_alaska_gov = {
+	name = "Alaska Government"
+	culture = anglo_saxon
+}
+
+dynasty_arizona_gov = {
+	name = "Arizona Government"
+	culture = anglo_saxon
+}
+
+dynasty_arkansas_gov = {
+	name = "Arkansas Government"
+	culture = anglo_saxon
+}
+
+dynasty_california_gov = {
+	name = "California Government"
+	culture = anglo_saxon
+}
+
+dynasty_colorado_gov = {
+	name = "Colorado Government"
+	culture = anglo_saxon
+}
+
+dynasty_connecticut_gov = {
+	name = "Connecticut Government"
+	culture = anglo_saxon
+}
+
+dynasty_delaware_gov = {
+	name = "Delaware Government"
+	culture = anglo_saxon
+}
+
+dynasty_florida_gov = {
+	name = "Florida Government"
+	culture = anglo_saxon
+}
+
+dynasty_georgia_gov = {
+	name = "Georgia Government"
+	culture = anglo_saxon
+}
+
+dynasty_hawaii_gov = {
+	name = "Hawaii Government"
+	culture = anglo_saxon
+}
+
+dynasty_idaho_gov = {
+	name = "Idaho Government"
+	culture = anglo_saxon
+}
+
+dynasty_illinois_gov = {
+	name = "Illinois Government"
+	culture = anglo_saxon
+}
+
+dynasty_indiana_gov = {
+	name = "Indiana Government"
+	culture = anglo_saxon
+}
+
+dynasty_iowa_gov = {
+	name = "Iowa Government"
+	culture = anglo_saxon
+}
+
+dynasty_kansas_gov = {
+	name = "Kansas Government"
+	culture = anglo_saxon
+}
+
+dynasty_kentucky_gov = {
+	name = "Kentucky Government"
+	culture = anglo_saxon
+}
+
+dynasty_louisiana_gov = {
+	name = "Louisiana Government"
+	culture = anglo_saxon
+}
+
+dynasty_maine_gov = {
+	name = "Maine Government"
+	culture = anglo_saxon
+}
+
+dynasty_maryland_gov = {
+	name = "Maryland Government"
+	culture = anglo_saxon
+}
+
+dynasty_massachusetts_gov = {
+	name = "Massachusetts Government"
+	culture = anglo_saxon
+}
+
+dynasty_michigan_gov = {
+	name = "Michigan Government"
+	culture = anglo_saxon
+}
+
+dynasty_minnesota_gov = {
+	name = "Minnesota Government"
+	culture = anglo_saxon
+}
+
+dynasty_mississippi_gov = {
+	name = "Mississippi Government"
+	culture = anglo_saxon
+}
+
+dynasty_missouri_gov = {
+	name = "Missouri Government"
+	culture = anglo_saxon
+}
+
+dynasty_montana_gov = {
+	name = "Montana Government"
+	culture = anglo_saxon
+}
+
+dynasty_nebraska_gov = {
+	name = "Nebraska Government"
+	culture = anglo_saxon
+}
+
+dynasty_nevada_gov = {
+	name = "Nevada Government"
+	culture = anglo_saxon
+}
+
+dynasty_new_hampshire_gov = {
+	name = "New Hampshire Government"
+	culture = anglo_saxon
+}
+
+dynasty_new_jersey_gov = {
+	name = "New Jersey Government"
+	culture = anglo_saxon
+}
+
+dynasty_new_mexico_gov = {
+	name = "New Mexico Government"
+	culture = anglo_saxon
+}
+
+dynasty_new_york_gov = {
+	name = "New York Government"
+	culture = anglo_saxon
+}
+
+dynasty_north_carolina_gov = {
+	name = "North Carolina Government"
+	culture = anglo_saxon
+}
+
+dynasty_north_dakota_gov = {
+	name = "North Dakota Government"
+	culture = anglo_saxon
+}
+
+dynasty_ohio_gov = {
+	name = "Ohio Government"
+	culture = anglo_saxon
+}
+
+dynasty_oklahoma_gov = {
+	name = "Oklahoma Government"
+	culture = anglo_saxon
+}
+
+dynasty_oregon_gov = {
+	name = "Oregon Government"
+	culture = anglo_saxon
+}
+
+dynasty_pennsylvania_gov = {
+	name = "Pennsylvania Government"
+	culture = anglo_saxon
+}
+
+dynasty_rhode_island_gov = {
+	name = "Rhode Island Government"
+	culture = anglo_saxon
+}
+
+dynasty_south_carolina_gov = {
+	name = "South Carolina Government"
+	culture = anglo_saxon
+}
+
+dynasty_south_dakota_gov = {
+	name = "South Dakota Government"
+	culture = anglo_saxon
+}
+
+dynasty_tennessee_gov = {
+	name = "Tennessee Government"
+	culture = anglo_saxon
+}
+
+dynasty_texas_gov = {
+	name = "Texas Government"
+	culture = anglo_saxon
+}
+
+dynasty_utah_gov = {
+	name = "Utah Government"
+	culture = anglo_saxon
+}
+
+dynasty_vermont_gov = {
+	name = "Vermont Government"
+	culture = anglo_saxon
+}
+
+dynasty_virginia_gov = {
+	name = "Virginia Government"
+	culture = anglo_saxon
+}
+
+dynasty_washington_gov = {
+	name = "Washington Government"
+	culture = anglo_saxon
+}
+
+dynasty_west_virginia_gov = {
+	name = "West Virginia Government"
+	culture = anglo_saxon
+}
+
+dynasty_wisconsin_gov = {
+	name = "Wisconsin Government"
+	culture = anglo_saxon
+}
+
+dynasty_wyoming_gov = {
+	name = "Wyoming Government"
+	culture = anglo_saxon
+}

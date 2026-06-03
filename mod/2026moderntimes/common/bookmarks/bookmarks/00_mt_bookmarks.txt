@@ -1,0 +1,13 @@
+﻿2026_modern_times = {
+	name = "BOOKMARK_2026_MODERN_TIMES"
+	desc = "BOOKMARK_2026_MODERN_TIMES_DESC"
+	date = 2026.1.1
+	era = era_modern
+
+	character = trump_donald
+	character = brones_luke
+	character = rust_joe
+	character = hamilton_justin
+	character = sianez_emma
+	character = mcauliffe_ireland
+}
