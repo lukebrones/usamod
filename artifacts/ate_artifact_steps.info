@@ -1,0 +1,209 @@
+﻿Haghog's Handy Guide to Adding in Artifacts to CK3
+
+Stage One: Creating an Artifact that someone owns at game start
+
+	Follow these steps to add an artifact into the game; its setup for 
+
+	1 - Define the template in ate-ck3\common\artifacts\templates\00_historical_artifacts_templates.txt 
+		(Or one of the other template files in that folder depending on where relevant)
+		Check to see if one of the templates could already work for your artifact; these templates don't need to be unique
+		If making a new one:
+			Copy and paste a template and define
+				Can you always equip it?
+				Who can benefit from it?
+				What happens if you can't benefit from it? (Fallback)
+				Is it unique?
+
+	2 - Define a modifier for it in ate-ck3\common\modifiers\ate_artifact_modifiers.txt
+		(Or one of the other modifier files in that folder depending on where relevant; e.g. court artifacts in their file)
+			Use ones from the base game as template if you need to
+
+	3 - Define the items visuals in ate-ck3\common\artifacts\visuals\ate_artifact_visuals.txt
+		Check to see if you can use a predfined item visual; not every item needs a unique visual
+			Use ones from the base game as template if you need to
+
+	4 - Define the artifact creation effect in ate-ck3\common\scripted_effects\ate_artifacts_creation_effect.txt
+		This will need to be defined for each artifact you make
+			Borrow another template to model your artifact on if needed
+			You'll use
+				Template from step 1
+				Modifier from step 2
+				Visuals from step 3
+			In this section
+
+	5 - Define the localization in ate-ck3\localization\english\replace\artifacts\ate_artifacts_l_english.yml
+
+	6 - Trigger the event to create the item in ate-ck3\events\artifacts\historical_artifacts_events.txt
+		This will set it so a character has the item at the start of the game
+		Look at the code around the declaration of independence to see a way of "seeding" a couple of copies of the artifact
+
+	You should be done!
+
+Stage Two: Setting up the artifact to be found by adventurers
+
+	Some artifacts better work as adventure "finds" (e.g. Ark of the Covenant in base game)
+
+	1 - Complete Steps 1 - 5 from Stage One of this Guide
+		This will have your artifact setup, with the "Create artifact" effect ready to be used in-game
+
+	2 - In Step 5, set a variable associated with the artifact in the effect
+		E.g. 		
+			set_variable = {
+				name = example_artifact
+				value = yes
+			}
+
+	3 - Find inspiration_adventure_create_artifact_effect in ate-ck3\common\scripted_effects\00_ep1_inspiration_effects.txt
+
+	4 - Add a new option in the random_list section where #Chance of Relic is written
+		This should be on the same level as the other artifacts defined here
+
+	5 - Define
+			Modifier - Modifies how likely the artifact is to be found; used to improve chances for high level adventurers/successful adventurers
+			Trigger - Whether the item can be found. Lots of elements can be set here, but key elements are:
+				Artifact Variable: Can be used to prevent copies of unique artifacts
+					e.g.
+					any_artifact = {
+						NOT = {
+							has_variable = example_artifact
+						}
+					}
+				Scope:Location: Refers to where the adventurer has gone to find an artifact
+					Geographical Region: Limits the item to being found in only specific regions, defined in ate-ck3\map_data\geographical_regions\geographical_region.txt
+					Faith.Religion: Limit the artifact to only be found in certain faith areas
+						e.g.
+						scope:location ?= {
+							OR = {
+								geographical_region = world_us_northeast
+								geographical_region = world_us_southeast
+							}
+							OR = {
+								faith.religion = religion:americanist_religion
+								faith = {
+									has_doctrine = tenet_americanist_syncretism
+								}
+							}
+						}
+			Create Artifact Effect: Used to create the artifact.
+				e.g.
+				create_artifact_example_artifact_effect = { OWNER = root }
+
+	This should allow the artifact to be found by adventurers and given to the player as a gift
+
+Stage Three: Associating Character Model Accessories with Artifacts
+
+	This will allow certain items to be visually shown on a character when equipped. We'll use the HCC Crown as an example artifact
+
+	1 - Complete Steps 1 - 5 from Stage One of this Guide
+		This will have your artifact setup, with the "Create artifact" effect ready to be used in-game
+
+	2 - In Step 5, set a variable associated with the artifact in the effect
+		E.g. 		
+			set_variable = {
+				name = hcc_crown
+				value = yes
+			}
+
+	3 - Set a trigger that will indicate that the accessory should be shown on the character in ate-ck3\common\scripted_triggers\ate_clothing_triggers.txt
+		This is only for AtE; you can create this trigger in vanilla modding
+		In the case of the HCC Crown, the trigger is this
+			portrait_hcc_crown_trigger = {
+				exists = this
+				OR = {
+					AND = {
+						NOT = {
+							has_dlc_feature = royal_court
+						}
+						has_title = title:e_hcc
+					}
+					has_dead_character_flag = hcc_crown_wearer_dead
+					any_equipped_character_artifact = {
+						has_variable = hcc_crown
+					}	
+				}
+			}
+		This trigger means
+			Players without Royal Court will have HCC Rulers wear the HCC Crown
+			Dead Characters with the relevant Dead Character Flag will wear the HCC Crown in their image
+			Characters who have the HCC Crown equipped will wear the crown correctly
+
+	4 - Go to where the accesory you wish to associate is saved
+		In the case of the HCC Crown, the accessory is saved in ate-ck3\gfx\portraits\portrait_modifiers\01_headgear_base.txt
+			Adding new models is beyond the scope of this particular guide
+
+	5 - Under the relevant artifact, set the crown to only appear when the previously set trigger is met 
+		In the case of the HCC Crown, the code works in this way:
+				hcc_imperial = {
+					dna_modifiers = {
+						accessory = {
+							gene = headgear
+							template = hcc_crown
+							range = { 0 1 } # For the randomness to work correctly
+						}
+					}	
+					weight = {
+						base = 0
+						modifier = {
+							add = 200 # always pick the HCC crown over the western one
+							portrait_hcc_crown_trigger = yes
+						}
+					}
+				}
+			Having a higher weight is important, or other crowns may be chosen
+
+	Your artifact should be appearing on living characters wearing the artifact! To make this work for dead characters as well
+
+	6 - Set the relevant dead_character_flag in ate-ck3\common\on_action\game_start.txt for any dead historical characters that should have the artifact equipped
+		For the HCC Crown:
+			title:e_hcc = {
+				every_past_holder = {
+					limit = {
+						is_alive = no
+					}
+					add_dead_character_flag = {
+						flag = hcc_crown_wearer_dead
+						years = 400
+					}
+				}
+			}
+	
+	7 - Add the variable associated with your artifact to artifact_visual_after_death_trigger in ate-ck3\common\scripted_triggers\ate_clothing_triggers.txt
+		This trigger is only in AtE; you can create this trigger in vanilla modding
+
+	8 - Add relevant code for your artifact to these effects in ate-ck3\common\scripted_effects\ate_scripted_effects.txt
+			artifact_visual_after_death_dead_character_event_effect
+				For HCC
+					else_if = {
+						limit = {
+							any_equipped_character_artifact = {
+								has_variable = hcc_crown
+							}
+						}
+						root.primary_heir = {
+							add_character_flag = {
+								flag = hcc_crown
+								days = 3
+							}
+							trigger_event = {
+								id = death_management.0125
+								days = 1
+							}
+						}
+					}
+			artifact_visual_after_death_dead_character_flag_effect
+				For HCC
+					else_if = {
+						limit = {
+							scope:dead_artifact_visual_heir = {
+								has_character_flag = hcc_crown
+							}
+						}
+						scope:dead_ruler = {
+							add_dead_character_flag = {
+								flag = hcc_crown_wearer_dead
+								years = 400
+							}
+						}
+					}
+
+	Your artifact should appear for dead characters who die with the artifact equipped!

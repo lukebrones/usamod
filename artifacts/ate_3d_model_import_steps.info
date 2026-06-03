@@ -1,0 +1,124 @@
+﻿Haghog's Handy Guide to Adding in 3d Models for Artifacts to CK3
+(Credit to El Tyranos Youtube Video which explained this process - much of this is a written adaptation of said video. If you get lost following this guide, check the video out here - https://www.youtube.com/watch?v=ZqXxbS0cRsM&t=2052s)
+
+-This guide assumes you have some experience with 3d modelling, or have been able to find a 3d model from a website such as Sketchfab. 
+-In order to follow this guide you will need:
+	-Blender
+		-3D modelling program (you should probably know what that is prior to reading this if you want to follow along with this guide)
+			-Other alternatives exist. I do not have experience with them so will not discuss them here
+		-Blender Plugins
+			-PDX Blender Tools: available at https://github.com/ross-g/io_pdx_mesh/
+				-This will allow you to import/export models from CK3 and into CK3. It is essential for this process.
+	-Substance Painter
+		-Adobe Program for texturing. This is a paid program (though it does have a free trial). 
+		-There are potentially other programs to use, and you may be able Blender for texturing, but Substance Painter is most straightforward for this process
+			-Substance Painter Addons
+				-Owlcoholic's CK3 Substance Painter settings: availabe at https://drive.google.com/file/d/1k9Yi7Ry136iyTsloRyTupg2UgHPlA7Wi/view
+					-This will allow you to export textures correctly for CK3. You can do this manually, but it is much, much easier to use these presets
+	Paint.net (or another image editor that can convert to .dds files)
+-Make sure you have these add-ons in your program prior to starting this process!
+
+Stage One: Importing a mesh for a Court Artifact into CK3
+
+	1 - Import mesh into Blender and resize if needed
+		-In Layout View, you will have a menu called PDX Blender Tools (resize the panel if needed). Make sure you are familiar with this for this process
+		-It can be difficult to judge the scale of a mesh in Blender by itself; I recommend importing a vanilla artifact mesh as a size comparison
+			-This can be done by selecting "Load Mesh" in PDX Blender Tools, and navigating to the steamapps\common\Crusader Kings III\game\gfx\models\ folder
+				-Searching through the folders there should provide you with a range of in-game models to compare your own to.
+
+	2 - UV unwrap your model
+		-In the UV Editing tab, make a new image in the left window, saving as a UV grid.
+		-Select your entire mesh, and select UV from the top menu.
+			-Select Unwrap in here and examine the image created on your left
+				-The flatter the image, the better quality the UV map is. Dense sections of overlapping lines is a bad sign, and will likely cause issues when trying to model your object in Substance Painter 
+					-I unfortunately am not good at fixing UV models; discuss this with the CK3 Mod Coop for further information on fixing UV maps.
+
+	3 - Apply a PDX material to your mesh
+		-In the layout tab, select your mesh and click "Create" under "PDX materials" in PDX Blender Tools
+			-In the pop-up box that appears
+				-Name your texture; it should be "PDXmat_your_model_nameShape" or something similar; the PDXmat and Shape parts are important for the texturing to work later on (Especially the Shape part!)
+				-Choose your material type; for a court artifact, PdxMeshStandard works
+				-Check the box for "Apply material to selected"
+		-You should see the named material appear on your object in the Scene Collection - the name will appear next to a red patchy sphere icon
+		-You must also rename your mesh (the green inverted triangle above the red sphere) to "your_model_nameShape" at this point; not doing this will break your model in-game
+
+	4 - Export your model as a FBX model for Substance Painter
+		-I recommend you choose "Limit to Selected Objects" on the right of the box that opens up, and make sure that you only have your model selected
+		-If you change your model from this point, you will need to re-export your FBX model for Substance Painter.
+
+	5 - Export your model to your CK3 mod
+		-Click "Save mesh" in PDX Blender Tools and save to the relevant folder for your artifact
+			-Make sure to select "Selected Only" in the export options, and make sure that you only have your model selected
+
+	6 - Texture your model in Substance Painter
+		-Import your model into Substance Painter
+		-Select the croissant icon at the top and bake your model (you may want to watch a video around this process)
+		-Texture your model until you are happy with it
+			-I recommend taking some time to experiment with materials and alphas around this; YouTube is a good place for information on this
+
+	6.5 - Apply predefined textures to your model (Optional)
+		-This step is needed if your model has textures already provided (such as a Sketchfab download)
+		-Import your textures into Substance Painer
+		-Select the Texture Set Settings tab
+			-Apply your normal map texture as the normal map for the object
+		-Add a fill layer to your model
+			-In the fill layer, apply your Base Color, Roughness and Metallic textures to the model
+		-You should have your textures applied at this point, ready for the next step.
+
+
+	7 - Export CK3 textures in Substance Painter
+		-In the settings box for this, select CK3_standard as the output template
+		-Make sure you are exporting this textures to the correct folder
+		-You may want to increase the size of your textures to at least 2048.
+
+	8 - Convert these texture files into .dds files
+		-I use paint.net as its free and works for this
+		-Convert your files to .dds, save them in the folder you saved your model in, and name them
+			-A naming scheme like "your_model_name_xxx" works well for this
+				-In place of the xxx, put the relevant texture type: Diffuse, Normal and Properties
+			-When saving these files, choose from the options provided:
+				-Diffuse: BC1 (Linear, DXT1) with Generate Mipmaps ticked
+				-Normal: BC3 (Linear, DXT5) with Generate Mipmaps ticked
+				-Properties: BC3 (Linear, DXT5) with Generate Mipmaps ticked
+
+	9 - Set up the .asset file for your model
+		-Copy an .asset file from another artifact and clear out the code inside. Rename the file to your_model_name.asset
+			-(You can simply rename the code inside, but you must know what you're doing)
+			-Fill out the code, using the below example as a model:
+				pdxmesh = {
+					name = "your_model_name_mesh"
+					file = "your_model_name.mesh"
+
+					meshsettings = {
+						name = "your_model_nameShape"
+						index = 0
+						texture_diffuse = "your_model_name_diffuse.dds"
+						texture_normal = "your_model_name_normal.dds"
+						texture_specular = "your_model_name_properties.dds"
+						shader = "court"
+						shader_file = "gfx/FX/court_scene.shader"
+					}
+				}
+
+				entity = {
+					name = "your_model_name_entity"
+					pdxmesh = "your_model_name_mesh"
+				}
+			-To step through
+				-The pdxmesh calls the file name, which will have the Shape name inside the mesh
+				-The meshsettings will refer to the textures you have created
+				-The entity calls on the defined pdxmesh, which you have defined above it.
+
+	10 - Follow steps 1 - 6 of my Artifact Tutorial (in ate_artifact_steps.info)
+		-One key point: on Step 3
+			-Define the artifact's visuals, and refer to your model's entity you have defined in your .asset file
+			-For example, in the visuals file:
+				your_model = {
+					icon = "model_icon.dds"
+					asset = your_model_name_entity
+				}
+
+	11 - Test in-game!
+		-The model should be working and visible in-game.
+
+Stage Two: Adding a mesh for a Crown clothing item in CK3

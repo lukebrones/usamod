@@ -1,0 +1,432 @@
+﻿### AtE Historical Artifacts ###
+
+### Anachronous Artifacts ###
+
+liberty_bell = {
+	icon = "artifact_icons_unique_bell_of_santiago.dds"
+	asset = fp2_bell_of_santiago_01_a_entity
+}
+
+sunsphere_shard_relic_king_james = {
+	icon = "artifact_reliquary.dds"
+	support_type = "tall"
+	asset = ep1_mediterranean_box_reliquary_01_a_entity
+}
+
+hcc_crown = {
+	icon = "artefact_icons_unique_artifact_reichskrone.dds"
+	asset = hcc_crown_entity
+	pedestal = "tall_pillow"
+}
+
+jessamine_sword = {
+	icon = "artefact_icons_unique_artifact_excalibur.dds"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+defibrillator_sword = {
+	icon = "artifact_sword.dds"
+	asset = ep1_indian_sword_01_a_portrait_entity
+}
+bolivar_sword = {
+	icon = "artefact_icons_unique_artifact_excalibur.dds"
+	asset = ep1_mena_sword_01_a_entity
+}
+hobbes_stuffy = {
+	icon = "artifact_toy.dds"
+	asset = ep1_mediterranean_box_reliquary_01_a_entity
+}
+
+brazil_imperial_crown = {
+	icon = "artifact_brazil_crown.dds"
+	asset = {
+		trigger = {
+			has_variable = brazil_imperial_crown
+		}
+		reference = brazil_crown_entity
+	}
+	pedestal = "tall_pillow"
+}
+
+inca_imperial_crown = {
+	icon = "artifact_icons_votive_crown.dds"
+	asset = male_headgear_secular_inca_imperial_01_entity
+	pedestal = "tall_pillow"
+}
+
+kensington_runestone = {
+	icon = "artifact_rock.dds"
+	asset = ep1_western_box_reliquary_01_a_entity
+	pedestal = "tall"
+}
+
+pabodie_necronomicon = {
+	icon = "artifact_book.dds"
+	asset = ep1_western_book_big_01_a_entity
+}
+
+sherman_sword = {
+	icon = "artifact_sword.dds"
+	asset = ep1_western_sword_01_a_entity
+}
+
+john_henry_hammer = {
+	icon = "artifact_hammer.dds"
+	asset = ep1_western_hammer_01_a_portrait_entity
+}
+
+paul_bunyan_axe = {
+	icon = "artifact_axe.dds"
+	asset = ep1_western_axe_01_a_portrait_entity
+}
+
+ancient_shofar = {
+	icon = "artifact_tusk.dds"
+	asset = ep1_mediterranean_box_medium_fancy_01_a_entity
+}
+
+george_washington_dentures = {
+	icon = "artifact_washingtons_dentures.dds"
+	asset = ep1_western_box_reliquary_01_a_entity
+	pedestal = "tall_pillow"
+}
+
+george_washington_tooth = {
+	icon = "artefact_icons_unique_artifact_buddhas_tooth.dds"
+	asset = ep1_western_box_reliquary_01_a_entity
+	pedestal = "tall_pillow"
+}
+
+betsy_ross_flag = { #Buddy, they won't even let me do that
+	icon = "artifact_reliquary.dds"
+	asset = ep1_western_box_reliquary_01_a_entity
+	pedestal = "tall_pillow"
+}
+
+### AtE Minor Artifacts ###
+
+plastic_block = {
+	icon = "artifact_plastic_block.dds"
+	asset = ep1_western_box_small_basic_01_a_entity
+}
+
+rubiks_cube = {
+	icon = "artifact_rubiks_cube.dds"
+	asset = ep1_western_box_small_basic_01_a_entity
+}
+
+old_coin = {
+	icon = "artifact_old_coin.dds"
+	asset = ep1_western_box_small_basic_01_a_entity
+}
+
+
+#Guru Statue's - jank required because I can't solve this damned glitch
+socal_guru_statue_bronze = {
+	icon = "artifact_socal_guru_statue.dds"
+	pedestal = "tall_pillow"
+	asset = socal_guru_statue_bronze_entity
+}
+
+socal_guru_statue_gold = {
+	icon = "artifact_socal_guru_statue.dds"
+	pedestal = "tall_pillow"
+	asset = socal_guru_statue_gold_entity
+}
+
+socal_guru_statue_jade = {
+	icon = "artifact_socal_guru_statue.dds"
+	pedestal = "tall_pillow"
+	asset = socal_guru_statue_jade_entity
+}
+
+socal_guru_statue_large_bronze = {
+	default_type = sculpture
+	icon = "artifact_socal_guru_statue.dds"
+	asset = socal_guru_statue_large_bronze_entity
+}
+
+socal_guru_statue_large_gold = {
+	default_type = sculpture
+	icon = "artifact_socal_guru_statue.dds"
+	asset = socal_guru_statue_large_gold_entity
+}
+
+socal_guru_statue_large_jade = {
+	default_type = sculpture
+	icon = "artifact_socal_guru_statue.dds"
+	asset = socal_guru_statue_large_jade_entity
+}
+
+#Fossils - Could be condensed down in future
+fossil_skull_rex = {
+	icon = "artifact_skull_rex.dds"
+	asset = fossil_skull_rex_entity
+}
+
+fossil_skull_triceratops = {
+	icon = "artifact_skull_triceratops.dds"
+	asset = fossil_skull_triceratops_entity
+}
+
+fossil_skull_smilodon = {
+	default_type = pedestal
+	icon = "artifact_animal_trophy.dds"
+	pedestal = "tall_pillow"
+	asset = fossil_skull_smilodon_entity
+}
+
+fossil_mammoth_tusk = {
+	default_type = pedestal
+	icon = "artifact_tusk.dds"
+	pedestal = "short_pillow"
+	asset = fossil_mammoth_tusk_entity
+}
+
+fossil_snake = {
+	default_type = pedestal
+	icon = "artifact_tusk.dds"
+	pedestal = "tall_pillow"
+	asset = fossil_snake_entity
+}
+
+demon_core = {
+	icon = "artifact_demon_core.dds"
+	pedestal = "tall_pillow"
+	asset = demon_core_entity
+}
+
+divine_egg = {
+	icon = "artifact_divine_egg.dds"
+	asset = divine_egg_entity
+}
+
+atom_rod = {
+	icon = "artifact_atomic_rod.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_western_box_reliquary_01_a_entity
+}
+
+zamzam_well_water = {
+	default_type = pedestal
+	icon = "artifact_flask.dds"
+	pedestal = "short_pillow"
+	asset = ep1_mena_box_small_fancy_01_a_entity
+}
+
+book_of_remembrance = {
+	icon = "artifact_chronicle.dds"
+	support_type = "lectern"
+	asset = ep1_western_book_verybig_01_a_entity
+}
+
+winchester = { #Make this a wall artifact
+	default_type = wall_big
+	icon = "artifact_rifle_winchester.dds"
+	asset = artifact_winchester_rifle_court_entity
+}
+
+peacemaker = {
+	default_type = pistol
+	icon = "artifact_peacemaker.dds"
+	asset = ate_peacemaker_portrait_entity
+}
+
+aztec_sun_stone = {
+	default_type = sculpture
+	icon = "artifact_medallion.dds"
+	asset = aztec_sun_stone_entity
+}
+
+rimet_cup = {
+	default_type = pedestal
+	icon = "artifact_goblet.dds"
+	pedestal = "tall_pillow"
+	asset = rimet_cup_entity
+}
+
+stanley_cup = {
+	default_type = pedestal
+	icon = "artifact_stanley_cup_full.dds"
+	pedestal = "short"
+	asset = stanley_cup_entity
+}
+
+pedro_heart = {
+	icon = "artefact_icons_unique_artifact_eastern_reliquaries.dds"
+	pedestal = "tall_pillow"
+	asset = ep1_western_urn_fancy_01_a_entity
+}
+
+
+#Set because I think the skull model is a bit disrespectful to display some of the bones for characters we'd do artifacts for, but still want the bone icon used
+sacred_bones = {
+	default_type = pedestal
+	icon = "artifact_bone.dds"
+	pedestal = "short"
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = makushi_building }
+			}
+		}
+		reference = ep1_indian_box_reliquary_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = makushi_building }
+			}
+		}
+		reference = ep1_indian_urn_fancy_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = indian_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = makushi_building }
+			}
+		}
+		reference = ep1_indian_box_reliquary_02_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = arctic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = celtic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = western_us_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = nwc_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = pnw_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = canuck_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = frontier_west_building }
+			}
+		}
+		reference = ep1_mediterranean_box_reliquary_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = arctic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = celtic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = western_us_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = nwc_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = pnw_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = canuck_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = frontier_west_building }
+			}
+		}
+		reference = ep1_mediterranean_box_reliquary_02_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = iranian_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = northern_steppe_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = prairie_building }
+			}
+		}
+		reference = ep1_mena_box_reliquary_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = mena_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = iranian_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = steppe_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = northern_steppe_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = prairie_building }
+			}
+		}
+		reference = ep1_mena_box_reliquary_02_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = arctic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = celtic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = western_us_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = nwc_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = pnw_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = canuck_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = frontier_west_building }
+			}
+		}
+		reference = ep1_western_box_reliquary_01_a_entity
+	}
+	asset = {
+		trigger = {
+			OR = {
+				artifact_should_use_gfx_type_trigger = { TYPE = western_building }
+				artifact_should_use_gfx_type_trigger = { TYPE = norse_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = arctic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = celtic_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = western_us_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = nwc_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = pnw_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = canuck_building }
+				#artifact_should_use_gfx_type_trigger = { TYPE = frontier_west_building }
+			}
+		}
+		reference = ep1_western_box_reliquary_02_a_entity
+	}
+}
+
+parasol = {
+	icon = "artifact_sassanian_sword.dds"
+	asset = fp3_artifact_legendary_sword_01_a_entity
+	default_type = pedestal
+}
+
+water_filter = {
+	icon = "artifact_water_filter.dds"
+	pedestal = "short_pillow"
+	asset = ep1_mena_box_small_fancy_01_a_entity #Come back and import a proper 3d model in the future
+}
+
+carranca = {
+	icon = "artifact_carranca.dds"
+	pedestal = "short_pillow"
+	asset = ep1_mena_box_small_fancy_01_a_entity #Come back and import a proper 3d model in the future
+}
+
+charm_of_power = {
+	icon = {
+		trigger = {
+			scope:artifact.creator = {
+				faith = { ate_is_faith_or_descendant_trigger = { FAITH = faith:earthvault } }
+			}
+		}
+		reference = artifact_animal_figurine.dds
+	}
+	icon = {
+		trigger = {
+			scope:artifact.creator = {
+				NOT = {
+					faith = { ate_is_faith_or_descendant_trigger = { FAITH = faith:earthvault } }
+				}
+			}
+		}
+		reference = artifact_pouch.dds
+	}
+	asset = ep1_western_pouch_basic_01_a_entity
+}
+
+religious_trinket_figurine = {
+	icon = artifact_icon_statue_roman_woman.dds
+	asset = ep1_western_pouch_basic_01_a_entity
+}
+
+scepter_lotus_california = {
+	icon = "artifact_scepter_lotus_cali.dds"
+	asset = scepter_cali_entity
+}

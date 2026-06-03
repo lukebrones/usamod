@@ -1,0 +1,26 @@
+﻿hike_reflection_intent = {
+
+	icon = pious_intent
+	
+	is_shown = {
+		faith = {has_doctrine_parameter = the_beauty_around_us_active}
+	}
+	
+	ai_will_do = {
+		value = 10
+		add = ai_zeal
+	}
+}
+
+hike_competitive_intent = {
+	icon = worldly_intent
+	
+	is_shown = {
+		culture = {has_cultural_parameter = unlock_competitive_hike_intent}
+	}
+	
+	ai_will_do = {
+		value = 10
+		add = ai_zeal
+	}
+}

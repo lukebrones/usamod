@@ -1,0 +1,5 @@
+﻿pistol = {
+	slot = primary_armament
+	required_features = { handle }
+	# "handle" here is not defined in features/ate_features. This will require writing out a trigger for the feature also
+}
